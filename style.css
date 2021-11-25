@@ -1,0 +1,27 @@
+.ndfHFb-c4YZDc-i5oIFb .ndfHFb-c4YZDc-Wrql6b-AeOLfc-b0t70b {
+    display: none;
+    height: 0%;
+}
+body{
+    color: white;
+}
+
+
+/* If the screen size is 500px wide or less, hide the element */
+@media screen and (min-width: 400px) {
+    iframe{
+        height: 150px;
+        width:280px;
+        margin: 8%;
+        border: 4px rgb(251, 251, 251) solid;
+        border-radius: 3%;
+    }
+  }
+
+/* If the screen size is 600px wide or less, hide the element */
+@media screen and (min-width: 500px) {
+    iframe{
+        height:250px;
+        width:380px;
+    }
+  }
